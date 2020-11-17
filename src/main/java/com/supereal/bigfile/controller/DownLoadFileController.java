@@ -43,7 +43,7 @@ public class DownLoadFileController {
     }
 
     /**
-     * http://127.0.0.1:8080/bigfile/download/downloadLocal?filePath=F:/无人机开发文档
+     * http://127.0.0.1:8080/bigfile/download/zipDownloadRelativePath?filePath=F:/无人机开发文档
      * @param filePath
      * @param response
      * @throws IOException

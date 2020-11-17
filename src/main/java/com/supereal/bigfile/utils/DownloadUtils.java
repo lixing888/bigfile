@@ -129,7 +129,7 @@ public class DownloadUtils {
 //      String zipBasePath = request.getSession().getServletContext().getRealPath("/fileZip");
         //String zipBasePath = SysConfigCache.getString("file_url_z") + "zipFile";
         String zipBasePath = "F:\\dir\\" + "zipFile";
-        String zipFilePath = zipBasePath + File.separator + fileName.substring(3);
+        String zipFilePath = zipBasePath + File.separator + fileName.substring(fileName.lastIndexOf("/") + 1);
         System.out.println("zipFilePath:" + zipFilePath);
         File zipFile = new File(zipFilePath);
         try {
